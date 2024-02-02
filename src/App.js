@@ -1,13 +1,13 @@
 import './App.css';
-import Banner from './Banner';
+import Banner from './components/Banner/Banner';
 import Nav from './Nav';
-import requests from './requests';
-import Row from './Row';
+import requests from './utils/requests';
+import Row from './components/Rows/Row';
 import React from 'react';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 
-function App() {
+function App() { 
   return (
     <div className="App ">
       <Nav/>
